@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+body{
+margin: 0;
+padding: 0;
+background-size: cover;
+display:block;
+flex-wrap: wrap;
+}
+.head{
+	margin: 0;
+	border: 0;
+	width: 100%;
+	height: 80px;
+	background-color: aqua;
+	display: flex;
+	align-items: center;
+}
+.head #wi{
+	width: 50px;
+	height: 50px;
+	border:1px solid black;
+	padding:3px;
+	border-radius: 50%;
+	margin-left: 45px;
+	background-color: white;
+}
+.head h2{
+	margin-left: 15px;
+}
+
+.content{
+	width: 100%;
+	height:619px;
+	background-color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.content img{
+	position: relative;
+	top: 0;
+	left: 60px;
+}
+.page{
+    width:50%;
+    margin: auto;
+    height: 450px;
+    border: 1px solid black;
+    background-color:rgba(120,150,143,0.7);
+    padding: 13px;
+    border-radius: 10px;
+    
+}
+input{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 25px;
+    padding: 6px;
+    border: 0px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+button{
+    margin: auto;
+    border: 0px;
+    border-radius: 3px;
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    width: 85%;height: 35px;
+    letter-spacing: 1.7px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background: linear-gradient(to right,black,yellow,aqua);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -webkit-transition-duration:0.3s;
+    transition-duration:0.3s;
+    -webkit-transition-property:box-shadow,transform;
+    transition-property:box-shadow,transform;
+}
+button:hover{
+	 box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	 -webkit-transform:scale(1.0);
+	 transform: scale(0.9);
+	 
+}
+span{
+    font-size: small;
+    margin: auto;  
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    font-weight: bold;
+    color:yellow;
+    font-size: 15px;    
+}
+a:active{
+    color: red;
+}
+.foot{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.foot p{
+	color: white;
+}

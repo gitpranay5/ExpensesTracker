@@ -1,0 +1,156 @@
+@charset "ISO-8859-1";
+body{
+margin: 0;
+padding: 0;
+background-size: cover;
+display:block;
+flex-wrap: wrap;
+}
+.head{
+	margin: 0;
+	border: 0;
+	width: 100%;
+	height: 80px;
+	background-color: aqua;
+	display: flex;
+	align-items: center;
+}
+.head #wi{
+	width: 50px;
+	height: 50px;
+	border:1px solid black;
+	padding:3px;
+	border-radius: 50%;
+	margin-left: 45px;
+	background-color: white;
+}
+.head h2{
+	margin-left: 15px;
+}
+
+.content{
+	width:100%;
+	height:619px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		
+}
+.box{
+    border: 1px solid rgb(249, 245, 245);
+    border-radius: 8px;
+    width: 450px;
+    height: 430px;
+    padding: 10px;
+    margin: auto;
+    background-color:rgba(218, 251, 244, 0.829); 
+}
+.box h2{
+    margin: auto;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.innerbox{
+    padding:10px;
+    width: 280px;
+    height: 330px;
+}
+.links{
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#f{
+    border: 1px solid rgb(176, 170, 170);
+    border-radius: 3px;
+    width: 50%;
+    margin: auto;
+    padding:15px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#f:hover{
+    background-color: rgb(62, 21, 184,0.8);
+    border-color: rgb(62, 21, 184);
+    color: white;
+}
+.innerbox #f img{
+    margin: auto;
+    width: 21px;
+    margin-left:0;
+    margin-right: 9px;
+}
+#g{
+    border: 1px solid rgb(176, 170, 170);
+    border-radius: 3px;
+    margin: auto;
+    width: 50%;
+    padding:15px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.innerbox #g img{
+    margin: auto;
+    width: 19px;
+    margin-left:-5px;
+    margin-right: 9px;
+}
+#g:hover{
+    background-color: rgb(62, 21, 184,0.8);
+    border-color: rgb(62, 21, 184);
+    color: white;
+}
+i{
+    padding-top: 20px;width: 25px;
+}
+label{
+    float: left;
+    opacity: 1;
+    font-size: small;
+    margin-top: 10px;
+}
+input{
+    margin: auto;
+    margin-top: 5px;
+    width: 275px;
+    height: 30px;
+    border-radius: 5px;
+    border : 1px solid aqua;
+    outline: 0px;
+    
+}
+#sub{
+    color: white;
+    background-color: black;
+    margin: auto;
+    margin-top: 25px;
+    width: 280px;
+}
+
+#fp{
+   text-overflow:ellipsis;
+    margin: auto;
+}
+#new{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.foot{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.foot p{
+	color: white;
+}
