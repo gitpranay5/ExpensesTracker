@@ -1,3 +1,3 @@
 # ExpensesTracker
 
-live link : https://gitpranay5.github.io/ExpensesTracker/ExpenseTracker/src/main/webapp/indexpage.jsp
+live link : https://gitpranay5.github.io/ExpensesTracker/indexpage.jsp
